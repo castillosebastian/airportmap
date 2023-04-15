@@ -67,6 +67,7 @@ app = dash.Dash(
     __name__, external_stylesheets=[dbc.themes.DARKLY],
 )
 
+server = app.server
     
 app.layout = html.Div([
     html.Div(
