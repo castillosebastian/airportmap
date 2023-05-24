@@ -76,7 +76,7 @@ app.layout = html.Div([
                     [                        
                         dcc.Markdown(
                             """
-                            #   Aeropuertos en el mundo (UTN-VIS)
+                            #   World Airports
                             """.replace(
                                             "  ", ""
                                         ),
@@ -95,18 +95,14 @@ app.layout = html.Div([
                     [
                         dbc.Card(
                             dbc.CardBody(
-                                [
-                                    html.H3(
-                                        "Maestría Minería de Datos UTN-Parana: Catedra 'Visualización' 2023",
-                                        className="card-title",
-                                    ),
+                                [                                    
                                     html.H5(
                                         [
-                                            "Gráfico que contiene los aeropuertos en el mundo. ",                                            
+                                            "Discover a chart showcasing the diverse array of airports found worldwide.",                                            
                                         ],
                                         className="card-text",
                                     ),
-                                    dbc.CardLink("CSCastillo Github", href="https://github.com/castillosebastian/demo8.git"),
+                                    dbc.CardLink("CSCastillo Github", href="https://github.com/castillosebastian/airportmap.git"),
                                 ]
                             ),                            
                             style={                            
